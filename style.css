@@ -1,0 +1,64 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 48px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+  z-index: 10px;
+}
+
+.header .brand {
+  font-size: 36px;
+}
+
+.header .email {
+  font-size: 18px;
+}
+
+.header .email svg {
+  margin-bottom: -4px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  padding: 0px 64px;
+  height: 100vh;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.footer {
+  width: 80%;
+}
+
+.footer .title {
+  font-size: 28px;
+  margin-top: 80px;
+  margin-bottom: 0px;
+}
+
+.footer .desc {
+  font-size: 18px;
+  color: rgb(175, 184, 191);
+}
